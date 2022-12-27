@@ -1,0 +1,39 @@
+---
+title: "Mathematical Biostatistics Bootcamp 1"
+subtitle: "Unit 2"
+author: "Dan Killian notes"
+date: "1/1/2023"
+output: 
+  html_document:
+    tic: true
+    toc_depth: '5'
+    toc_float: yes
+    code_folding: show
+---
+
+```{r global_options, echo=F}
+
+# standard figure size and generate clean output
+knitr::opts_chunk$set(fig.width=8, fig.height=6, fig.align='center', warning=FALSE, message=FALSE, cache=TRUE, error=T)
+```
+
+```{r}
+source("prep.R")
+```
+
+## Conditional Probabilities and Bayes' Rule
+
+
+
+## Likelihood Plots and Ratio Benchmarks 
+
+
+## Bernoulli, Binomial, and Normal Distributions
+
+
+## Limits, Law of Large Numbers, Central Limit Theorem
+
+
+## Review
+
+

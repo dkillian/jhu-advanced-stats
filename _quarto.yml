@@ -1,0 +1,43 @@
+project:
+  title: "Advanced Statistics for Data Science"
+  type: website
+
+website:
+
+  navbar:
+    background: primary
+    left:
+      - text: "Home"
+        file: index.qmd
+      - sidebar:biostat1
+      - sidebar:biostat2
+      - sidebar:linmod1
+      - sidebar:linmod2
+
+  sidebar:
+    - id: biostat1
+      title: "Mathematical Biostatistics Bootcamp 1"
+      style: "docked"
+      contents: 
+        - "biostats 1 unit 1.qmd"
+        - "biostats 1 unit 1 quiz.qmd"
+        - "biostats 1 unit 2.qmd"
+        - "biostats 1 unit 2 quiz.qmd"
+        - "Course Project.qmd"
+
+    - id: biostat2
+      title: "Mathematical Biostatistics Bootcamp 2"
+      
+    - id: linmod1
+      title: "Adanced Linear Models 1"
+      style: "docked"
+        
+    - id: linmod2
+      title: "Advanced Linear Models 2"
+      style: "docked"
+  
+
+
+
+
+
